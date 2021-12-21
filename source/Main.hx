@@ -89,7 +89,7 @@ class Main extends Sprite
 			['Funny'],
 			['seagush'],
 			[FlxColor.fromRGB(206, 106, 169)],
-			"ГОВНО"
+			"Funny"
 		],
 	];
 
