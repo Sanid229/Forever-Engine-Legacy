@@ -194,35 +194,16 @@ class Character extends FNFSprite
 				animation.addByPrefix('singRIGHT', 'Monster Right note', 24, false);
 
 				playAnim('idle');
-			case 'pico':
-				tex = Paths.getSparrowAtlas('characters/Pico_FNF_assetss');
+			case 'Seagush':
+				tex = Paths.getSparrowAtlas('characters/Seagush');
 				frames = tex;
-				animation.addByPrefix('idle', "Pico Idle Dance", 24, false);
-				animation.addByPrefix('singUP', 'pico Up note0', 24, false);
-				animation.addByPrefix('singDOWN', 'Pico Down Note0', 24, false);
-				if (isPlayer)
-				{
-					animation.addByPrefix('singLEFT', 'Pico NOTE LEFT0', 24, false);
-					animation.addByPrefix('singRIGHT', 'Pico Note Right0', 24, false);
-					animation.addByPrefix('singRIGHTmiss', 'Pico Note Right Miss', 24, false);
-					animation.addByPrefix('singLEFTmiss', 'Pico NOTE LEFT miss', 24, false);
-				}
-				else
-				{
-					// Need to be flipped! REDO THIS LATER!
-					animation.addByPrefix('singLEFT', 'Pico Note Right0', 24, false);
-					animation.addByPrefix('singRIGHT', 'Pico NOTE LEFT0', 24, false);
-					animation.addByPrefix('singRIGHTmiss', 'Pico NOTE LEFT miss', 24, false);
-					animation.addByPrefix('singLEFTmiss', 'Pico Note Right Miss', 24, false);
-				}
-
-				animation.addByPrefix('singUPmiss', 'pico Up note miss', 24);
-				animation.addByPrefix('singDOWNmiss', 'Pico Down Note MISS', 24);
-
+				animation.addByPrefix('idle', "idle", 24, false);
+				animation.addByPrefix('singUP', 'up', 24, false);
+				animation.addByPrefix('singDOWN', 'down', 24, false);
+				animation.addByPrefix('singLEFT', 'left', 24, false);
+				animation.addByPrefix('singRIGHT', 'right', 24, false);
+				
 				playAnim('idle');
-
-				flipX = true;
-
 			case 'bf':
 				frames = Paths.getSparrowAtlas('characters/BOYFRIEND');
 
