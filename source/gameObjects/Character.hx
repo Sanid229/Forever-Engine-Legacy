@@ -143,7 +143,7 @@ class Character extends FNFSprite
 				quickDancer = true;
 
 				playAnim('danceRight');
-			case 'mom':
+			case 'momi':
 				tex = Paths.getSparrowAtlas('characters/Mom_Assets');
 				frames = tex;
 
