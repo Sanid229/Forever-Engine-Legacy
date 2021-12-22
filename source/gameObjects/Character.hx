@@ -194,14 +194,14 @@ class Character extends FNFSprite
 				animation.addByPrefix('singRIGHT', 'Monster Right note', 24, false);
 
 				playAnim('idle');
-			case 'Seagush':
-				tex = Paths.getSparrowAtlas('characters/Seagush');
+			case 'Glitch':
+				tex = Paths.getSparrowAtlas('characters/Pico_FNF_assetss');
 				frames = tex;
-				animation.addByPrefix('idle', "idle", 24, false);
-				animation.addByPrefix('singUP', 'up', 24, false);
-				animation.addByPrefix('singDOWN', 'down', 24, false);
-				animation.addByPrefix('singLEFT', 'left', 24, false);
-				animation.addByPrefix('singRIGHT', 'right', 24, false);
+				animation.addByPrefix('idle', "idle", 15, false);
+				animation.addByPrefix('singUP', 'up', 15, false);
+				animation.addByPrefix('singDOWN', 'down', 15, false);
+				animation.addByPrefix('singLEFT', 'left', 15, false);
+				animation.addByPrefix('singRIGHT', 'right', 15, false);
 				
 				playAnim('idle');
 			case 'bf':
