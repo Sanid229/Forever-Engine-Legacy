@@ -266,7 +266,7 @@ class Character extends FNFSprite
 			 */
 
 			case 'bf-dead':
-				frames = Paths.getSparrowAtlas('characters/bfPixelsDEAD');
+				frames = Paths.getSparrowAtlas('characters/BF_DEATH');
 
 				animation.addByPrefix('firstDeath', "BF dies", 24, false);
 				animation.addByPrefix('deathLoop', "BF Dead Loop", 24, true);
