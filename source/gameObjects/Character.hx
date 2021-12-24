@@ -194,8 +194,8 @@ class Character extends FNFSprite
 				animation.addByPrefix('singRIGHT', 'Monster Right note', 24, false);
 
 				playAnim('idle');
-			case 'pico':
-				tex = Paths.getSparrowAtlas('characters/Pico_FNF_assetss');
+			case 'glitch':
+				tex = Paths.getSparrowAtlas('characters/Glitch_assetss');
 				frames = tex;
 				animation.addByPrefix('idle', "Pico Idle Dance", 24, false);
 				animation.addByPrefix('singUP', 'pico Up note0', 24, false);
