@@ -15,12 +15,14 @@ class HealthIcon extends FlxSprite
 	public var initialHeight:Float = 0;
 
 	public function new(char:String = 'bf', isPlayer:Bool = false)
+	public function new(char:String = 'fred', isPlayer:Bool = false)
 	{
 		super();
 		updateIcon(char, isPlayer);
 	}
 
 	public function updateIcon(char:String = 'bf', isPlayer:Bool = false)
+	public function updateIcon(char:String = 'fred', isPlayer:Bool = false)
 	{
 		var trimmedCharacter:String = char;
 		if (trimmedCharacter.contains('-'))
@@ -42,6 +44,7 @@ class HealthIcon extends FlxSprite
 		initialHeight = height;
 
 		animation.add('icon', [0, 1], 0, false, isPlayer);
+		animation.add('fred', [0, 1], 0, false, isPlayer);
 		animation.play('icon');
 		scrollFactor.set();
 	}
