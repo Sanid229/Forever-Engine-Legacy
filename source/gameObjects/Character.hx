@@ -130,7 +130,7 @@ class Character extends FNFSprite
 				animation.addByPrefix('singLEFT', 'Dad Sing Note LEFT', 24);
 
 				playAnim('idle');
-		        case 'cuddles':
+		        case 'cud':
 				// DAD ANIMATION LOADING CODE
 				tex = Paths.getSparrowAtlas('characters/Cuddles');
 				frames = tex;
