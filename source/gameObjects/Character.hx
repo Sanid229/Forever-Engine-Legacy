@@ -454,15 +454,15 @@ class Character extends FNFSprite
 				animation.addByPrefix('shoot4', 'Pico shoot 4', 24, false);
 
 				playAnim('shoot1');
-	                 case 'fred':
+	                 case 'cuddles':
 				// DAD ANIMATION LOADING CODE
-				tex = Paths.getSparrowAtlas('characters/Fred');
+				tex = Paths.getSparrowAtlas('characters/Cuddles');
 				frames = tex;
-				animation.addByPrefix('idle', 'Dad idle dance', 24, false);
-				animation.addByPrefix('singUP', 'Dad Sing Note UP', 24);
-				animation.addByPrefix('singRIGHT', 'Dad Sing Note RIGHT', 24);
-				animation.addByPrefix('singDOWN', 'Dad Sing Note DOWN', 24);
-				animation.addByPrefix('singLEFT', 'Dad Sing Note LEFT', 24);
+				animation.addByPrefix('idle', 'idle', 24, false);
+				animation.addByPrefix('singUP', 'up', 24);
+				animation.addByPrefix('singRIGHT', 'right', 24);
+				animation.addByPrefix('singDOWN', 'down', 24);
+				animation.addByPrefix('singLEFT', 'left', 24);
 
 				playAnim('idle');
 			default:
@@ -485,16 +485,6 @@ class Character extends FNFSprite
 				}
 				else
 				{
-					// DAD ANIMATION LOADING CODE
-					tex = Paths.getSparrowAtlas('characters/DADDY_DEAREST');
-					frames = tex;
-					animation.addByPrefix('idle', 'Dad idle dance', 30, false);
-					animation.addByPrefix('singUP', 'Dad Sing Note UP', 24);
-					animation.addByPrefix('singRIGHT', 'Dad Sing Note RIGHT', 24);
-					animation.addByPrefix('singDOWN', 'Dad Sing Note DOWN', 24);
-					animation.addByPrefix('singLEFT', 'Dad Sing Note LEFT', 24);
-
-					playAnim('idle');
 				}
 		}
 
