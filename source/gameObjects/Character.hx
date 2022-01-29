@@ -130,6 +130,17 @@ class Character extends FNFSprite
 				animation.addByPrefix('singLEFT', 'Dad Sing Note LEFT', 24);
 
 				playAnim('idle');
+		        case 'cuddles':
+				// DAD ANIMATION LOADING CODE
+				tex = Paths.getSparrowAtlas('characters/Cuddles');
+				frames = tex;
+				animation.addByPrefix('idle', 'idle', 24, false);
+				animation.addByPrefix('singUP', 'up', 24);
+				animation.addByPrefix('singRIGHT', 'right', 24);
+				animation.addByPrefix('singDOWN', 'down', 24);
+				animation.addByPrefix('singLEFT', 'left', 24);
+
+				playAnim('idle');	
 			case 'spooky':
 				tex = Paths.getSparrowAtlas('characters/spooky_kids_assets');
 				frames = tex;
@@ -454,17 +465,6 @@ class Character extends FNFSprite
 				animation.addByPrefix('shoot4', 'Pico shoot 4', 24, false);
 
 				playAnim('shoot1');
-	                 case 'cuddles':
-				// DAD ANIMATION LOADING CODE
-				tex = Paths.getSparrowAtlas('characters/Cuddles');
-				frames = tex;
-				animation.addByPrefix('idle', 'idle', 24, false);
-				animation.addByPrefix('singUP', 'up', 24);
-				animation.addByPrefix('singRIGHT', 'right', 24);
-				animation.addByPrefix('singDOWN', 'down', 24);
-				animation.addByPrefix('singLEFT', 'left', 24);
-
-				playAnim('idle');
 			default:
 				// set up animations if they aren't already
 
